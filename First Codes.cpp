@@ -3,15 +3,20 @@ using namespace std;
 
 int main ()
 {
-    int n,m,sum,sub;
+    int a,b;
     cout<<"Enter two value = ";
-    cin>>n>>m;
+    cin>>a>>b;
 
-    sum = n+m;
-    sub = n-m;
-
-    cout<<"Sumation = "<<sum<<endl;
-    cout<<"Subtraction = "<<sub<<endl;
+    if(a>b)
+    {
+        cout<<a<<" is greater than "<<b<<" !!!";
+    }
+    else if(a<b)
+    {
+        cout<<a<<" is less then "<<b<<" !!!";
+    }
+    else
+        cout<<a<<" and "<<b<<" are equal !!!";
 
     return 0;
 }
